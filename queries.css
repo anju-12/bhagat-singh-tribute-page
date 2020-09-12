@@ -1,0 +1,60 @@
+@media only screen and (max-width:1060px) {
+    #title { margin-left: 50px; }
+    #img-left, #img-right { height: 140px; }
+    #tribute-info ul { padding: 0 100px; }
+    h2 { font-size: 100%; }
+    #tribute-info li:first-child,
+    #tribute-info li:nth-child(3) { height: 190px; }
+    #tribute-info li:nth-child(2) { height: 220px; }
+    #tribute-info li:last-child { height: 120px; }
+    #tribute-info p {
+        margin: 0;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    #image { width: 200px; }
+    #img-div { padding-top: 100px; }
+    #img-caption { font-size: 60%; }
+    #title { padding-top: 150px; }
+    h1 { font-size: 250%; }
+    #tribute-info li { height: 280px; }
+    #tribute-info p { font-size: 80%; }
+    #img-left, #img-right { height: 120px; }
+    #tribute-info ul { padding: 0 50px; }
+    #tribute-info li:first-child,
+    #tribute-info li:nth-child(3) { height: 190px; }
+    #tribute-info li:nth-child(2) { height: 220px; }
+    #tribute-info li:last-child { height: 120px; }
+    #wiki, #anju {
+        font-size: 80%;
+        margin: 0 20px 10px;
+    }
+    #quote {
+        font-size: 130%;
+        margin: 30px;
+    }
+}
+
+@media only screen and (max-width:510px) {
+    #header { display: block;}
+    h1 { font-size: 200%; }
+    #image { width: 180px; }
+    h2 { padding: 0 20px;}
+    #title { 
+        padding-top: 20px;
+        margin-left: 0;
+    }
+    #img-div { padding-top: 20px; }
+    #img-left, #img-right { height: 90px; }
+    #tribute-info ul { padding: 0 10px; }
+    #tribute-info li:last-child {
+        height: 80px;
+        margin-top: 20px;
+    }
+    #tribute-info li:first-child, #tribute-info li:nth-child(3) {
+        height: 220px;
+    }
+
+}

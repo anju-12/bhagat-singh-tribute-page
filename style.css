@@ -58,18 +58,23 @@ h2 {
 }
 
 #tribute-info {
-    width: 1000px;
+    width: auto;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 #tribute-info ul {
     list-style-type: none;
+    padding: 0 200px;
 }
 
 #tribute-info li {
-    height: 200px;
+    height: 250px;
     display: flex;
+}
+
+#tribute-info li:last-child {
+    height: 200px;
 }
 
 #img-left, #img-right {
@@ -104,7 +109,8 @@ h2 {
     text-align: center;
     font-family: Cookie;
     font-size: 150%;
-    width: 600px;
+    width: auto;
+    max-width: 600px;
     margin: 50px auto;
     
 }
@@ -114,6 +120,7 @@ h2 {
     font-family: 'Slabo 27px';
     font-weight: bold;
     letter-spacing: 1px;
+    font-size: 100%;
 }
 
 #anju {
